@@ -23,17 +23,13 @@ did:iid:3k4KHKzF6FTiEpuBiCTMUYfzhDQyqZoye9196ECnYhcNvJyf4WjCQpP
 ```
 docker build -f ./docker/Dockerfile . -t universalresolver/driver-did-iid
 docker run -p 8080:8080 universalresolver/driver-did-iid
-curl -X GET http://localhost:8080/1.0/identifiers/did:iid:xz35-jznz-q9yu-ply
+
 ```
 
 ## Build (native Java)
 
 	mvn clean install
 	
-## Driver Environment Variables
-
-The driver recognizes the following environment variables:
-
 ## Driver Metadata
 
 The driver returns the following metadata in addition to a DID document:
@@ -41,3 +37,8 @@ The driver returns the following metadata in addition to a DID document:
 * `proof`: Some proof info about the DID document.
 * `created`: The DID create time.
 * `updated`: The DID document last update time.
+
+
+## Maintainer
+
+- zoe Yian [@hello2mao](https://github.com/superzoeyian)
