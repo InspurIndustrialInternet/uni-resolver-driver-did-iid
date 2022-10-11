@@ -41,4 +41,4 @@ The driver returns the following metadata in addition to a DID document:
 
 ## Maintainer
 
-- zoe Yian [@hello2mao](https://github.com/superzoeyian)
+- zoe Yian [@superzoeyian](https://github.com/superzoeyian)
