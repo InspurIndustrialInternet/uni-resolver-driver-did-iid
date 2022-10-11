@@ -25,13 +25,13 @@
     <servers>
         <server>
             <id>github-ur</id>
-            <username>superzoeyian</username>
-            <password>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</password>
+            <username>InspurIndustrialInternet</username>
+            <password>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</password>
         </server>
         <server>
             <id>github-didcom</id>
-            <username>superzoeyian</username>
-            <password>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</password>
+            <username>InspurIndustrialInternet</username>
+            <password>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</password>
         </server>
     </servers>
 </settings>
